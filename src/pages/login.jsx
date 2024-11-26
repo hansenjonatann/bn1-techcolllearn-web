@@ -1,11 +1,12 @@
 import InputField from "../../components/InputField";
 import CustomButton from "../../components/Button";
+import logoWithText from '../assets/logo_with_text.png'
 
 const LoginPage = () => {
   return (
     <div className="bg-secondary w-full h-screen grid grid-cols-1 md:grid-cols-3 ">
       <div className="col-span-2 flex justify-center items-center ">
-        {/* <img src={LogoWithText} alt="" /> */}
+        <img src={logoWithText} alt="" />
       </div>
       <div className="bg-primary  ">
         <div className="flex flex-col">

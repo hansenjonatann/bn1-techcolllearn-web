@@ -51,7 +51,7 @@ const  Sidebar = () => {
 
     const route = useLocation()
     return (
-        <div className="h-screen bg-primary w-[415px]">
+        <div className="h-full bg-primary w-[415px]">
             <div className="flex flex-col ">
                 <img src={logo} alt="" width={189} height={158} className='mx-auto mt-[30px]' />
 
